@@ -4,7 +4,7 @@ Pybot adalah asisten AI pribadi yang dibuat oleh saya dan dikembangkan oleh **Ne
 
 ## Fitur Utama
 ✅ **Tidak Menyimpan Riwayat Chat** → Setiap percakapan selalu dianggap baru.  
-✅ **Model Terenkripsi Base64** → File model dienkripsi agar tidak bisa dibaca manusia secara langsung.  
+✅ **Model Terenkripsi** → File model dienkripsi agar tidak bisa dibaca manusia secara langsung.  
 ✅ **Fokus pada Jawaban yang Berguna** → Menghindari percakapan tidak relevan atau tidak bermanfaat.  
 ✅ **Tidak Mudah Dipengaruhi** → Pybot tidak akan mudah percaya jika ada user yang mengaku sebagai penciptanya.  
 ✅ **Ringan & Cepat** → Tidak membebani sistem dengan penyimpanan log chat.
@@ -32,7 +32,7 @@ python bot.py
 ```
 pybot/
 ├── bot.py                 # Script utama chatbot
-├── Model_Encrypt.json     # Model yang sudah dienkripsi dengan Base64
+├── Model_Encrypt.json     # Model yang sudah dienkripsi
 ├── pyarmor_runtime_000000/
 │   ├── __init__.py        # File inisialisasi Python
 │   ├── pyarmor_runtime.so # Runtime protection (PyArmor)
