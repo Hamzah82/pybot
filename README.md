@@ -4,9 +4,13 @@ Pybot is a personal AI assistant created by me and developed by **Nebula Enterpr
 
 ## Key Features
 ✅ **No Chat History** → Every conversation is always considered new.
+
 ✅ **Encrypted Model** → Model files are encrypted so that they cannot be read by humans directly. 
+
 ✅ **Focus on Useful Answers** → Avoids irrelevant or useless conversations. 
+
 ✅ **Not Easily Influenced** → Pybot will not easily believe if a user claims to be its creator. 
+
 ✅ **Light & Fast** → Does not burden the system with chat log storage.
 
 ## Installation
