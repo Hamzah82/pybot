@@ -1,42 +1,42 @@
 # Pybot
 
-Pybot adalah asisten AI pribadi yang dibuat oleh saya dan dikembangkan oleh **Nebula Enterprise**. Pybot dirancang untuk memberikan jawaban yang cerdas, efisien, dan tetap sopan kepada pengguna. Setiap interaksi dengan Pybot bersifat **stateless**, artinya percakapan tidak disimpan untuk menjaga keamanan dan kinerja optimal.
+Pybot is a personal AI assistant created by me and developed by **Nebula Enterprise**. Pybot is designed to provide intelligent, efficient, and polite answers to users. Every interaction with Pybot is **stateless**, meaning conversations are not stored to maintain security and optimal performance.
 
-## Fitur Utama
-✅ **Tidak Menyimpan Riwayat Chat** → Setiap percakapan selalu dianggap baru.  
-✅ **Model Terenkripsi** → File model dienkripsi agar tidak bisa dibaca manusia secara langsung.  
-✅ **Fokus pada Jawaban yang Berguna** → Menghindari percakapan tidak relevan atau tidak bermanfaat.  
-✅ **Tidak Mudah Dipengaruhi** → Pybot tidak akan mudah percaya jika ada user yang mengaku sebagai penciptanya.  
-✅ **Ringan & Cepat** → Tidak membebani sistem dengan penyimpanan log chat.
+## Key Features
+✅ **No Chat History** → Every conversation is always considered new. 
+✅ **Encrypted Model** → Model files are encrypted so that they cannot be read by humans directly. 
+✅ **Focus on Useful Answers** → Avoids irrelevant or useless conversations. 
+✅ **Not Easily Influenced** → Pybot will not easily believe if a user claims to be its creator. 
+✅ **Light & Fast** → Does not burden the system with chat log storage.
 
-## Instalasi
+## Installation
 
-### 1. **Kloning Repository**
+### 1. **Cloning Repository**
 ```bash
 git clone https://github.com/Hamzah82/pybot.git
 cd pybot
 ```
 
 ### 2. **Install Dependencies**
-Pastikan kamu sudah menginstal dependensi yang diperlukan:
+Make sure you have installed the required dependencies:
 ```bash
 pip install requests
 ```
 
-### 3. **Jalankan Chatbot**
+### 3. **Run Chatbot**
 ```bash
 python bot.py
 ```
 
-## File & Struktur
+## Files & Structure
 ```
 pybot/
-├── bot.py                 # Script utama chatbot
-├── Model_Encrypt.json     # Model yang sudah dienkripsi
+├── bot.py # Main chatbot script
+├── Model_Encrypt.json # Encrypted model
 ├── pyarmor_runtime_000000/
-│   ├── __init__.py        # File inisialisasi Python
-│   ├── pyarmor_runtime.so # Runtime protection (PyArmor)
-├── README.md              # Dokumentasi proyek ini
+│  ├── __init__.py # Python initialization file
+│  ├── pyarmor_runtime.so # Runtime protection (PyArmor)
+├── README.md # Documentation of this project
 ```
 
 ## 💰 Support Me:
@@ -45,6 +45,8 @@ If you like my work and want to support me, feel free to donate through **Trakte
 * XNO: `nano_34nkk758bnieqtkc6w75pjqpzcdcked1zjo977m8ktot5pibtku4gixad5qc`
 * BTC: `bc1qctk0yk6kxnjmwvkl8x6zfsu4g75w3c6qrtq3ja`
 
-## Lisensi
-Proyek ini dilindungi oleh **[MIT License](LICENSE)**. Silakan gunakan, modifikasi, dan kontribusikan! 🚀
+## 🔓 Unencrypted Version:
+If you wanna get unencrypted version contact me in instagram @d38r15
 
+## License
+This project is protected by **[MIT License](LICENSE)**. Please feel free to use, modify, and contribute! 🚀
